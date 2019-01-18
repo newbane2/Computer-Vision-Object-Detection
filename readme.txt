@@ -1,3 +1,10 @@
+The goal is to develop a vision system that recognizes two–dimensional objects in pgm images. 
+The two objects we are interested in are shown in the image two objects.pgm. Given an image such as
+many objects 1.pgm, use the vision system to determine if the two objects are in
+the image and if so compute their positions and orientations.
+
+Usage Information:
+
 To compile just use make all
 
 To run the program you need to do
