@@ -47,10 +47,10 @@ int main(int argc, char **argv)
 
     Image image;
 
-	if (!ReadImage(input_file, &image)) {
-		cout << "Can't open file " << input_file << endl;
-		return 0;
-	}
+    if (!ReadImage(input_file, &image)) {
+        cout << "Can't open file " << input_file << endl;
+        return 0;
+    }
 
     unordered_map<int, Entry> db, loadedDB;
    
