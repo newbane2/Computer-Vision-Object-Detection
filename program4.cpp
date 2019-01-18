@@ -36,16 +36,16 @@ void dumpObjectModelsIntoFile(string path, unordered_map<int, Entry> & db);
 
 int main(int argc, char **argv) 
 {
-	if (argc != 4) {
-		printf("Usage: %s file1 file2\n", argv[0]);
-		return 0;
-	}
+    if (argc != 4) {
+	    printf("Usage: %s file1 file2\n", argv[0]);
+	    return 0;
+    }
 
-	const string input_file(argv[1]);
-	const string db_file(argv[2]);
-	const string output_file(argv[3]);
+    const string input_file(argv[1]);
+    const string db_file(argv[2]);
+    const string output_file(argv[3]);
 
-	Image image;
+    Image image;
 
 	if (!ReadImage(input_file, &image)) {
 		cout << "Can't open file " << input_file << endl;
