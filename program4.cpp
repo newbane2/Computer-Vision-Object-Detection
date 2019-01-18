@@ -42,7 +42,7 @@ int main(int argc, char **argv)
 	}
 
 	const string input_file(argv[1]);
-    const string db_file(argv[2]);
+	const string db_file(argv[2]);
 	const string output_file(argv[3]);
 
 	Image image;
