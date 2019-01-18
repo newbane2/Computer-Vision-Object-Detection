@@ -37,8 +37,8 @@ void dumpObjectModelsIntoFile(string path, unordered_map<int, Entry> & db);
 int main(int argc, char **argv) 
 {
 	if (argc != 4) {
-	printf("Usage: %s file1 file2\n", argv[0]);
-	return 0;
+		printf("Usage: %s file1 file2\n", argv[0]);
+		return 0;
 	}
 
 	const string input_file(argv[1]);
